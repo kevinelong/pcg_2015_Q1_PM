@@ -1,0 +1,71 @@
+Week 5
+==
+
+isA Class
+Clock
+TimeKeepingDevice
+
+hasA property
+(might list objects of another class)
+
+ClockRadio
+Inherits from Radio and Clock
+
+Multiple Inheritance
+When and Why how often
+Merge/Blend
+
+Classes
+Decorators
+Cross-Cutting Near Global add or remove like cheap mult inheit
+
+When WHay How
+
+Self
+Class Foo:
+	Name = “kevin”
+	def __init__(self, greeting):
+		self.name = “kevin”
+		self.make_greeting(greeting)
+
+	def make_greeting(self, greeting):
+		temp = self.Name
+		self.share_me = greeting + temp
+		self.print_greeting()
+
+	def print_greeting(self):
+		print self.share_me
+
+my f = Foo()
+f.share_me = “Yo!”
+f.print_greeting()
+
+
+REST API
+/endpoint/objecttype/123/
+Representational STate Transfer
+IBM ORACLE MS
+MSB LSB
+“123”
+HTTP ALL STRINGS ALL THE TIME
+Integer, date, strings
+RPC, CORBA, COM
+
+XML </>
+
+JSON
+[
+	{“id”: “111”, “name”: “Bob”},
+	{“id”: “222”, “name”: “Carol”},
+]
+
+HTTP VERBS
+Read -> GET /shoes/men/
+Update-ing - > POST /shoes/men/123/ {“price”: 456.99}
+
+Create/Insert -> PUT
+Remove/Delete -> DELETE
+SESSION
+
+Browser JavaScript
+AJAX -> XMLHTTPRequest
